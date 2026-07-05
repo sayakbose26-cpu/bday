@@ -213,6 +213,54 @@
             60% { transform: translateX(-50%) scale(1.08); opacity: 1; }
             100% { transform: translateX(-50%) scale(1); opacity: 1; }
         }
+
+        /* ===== MOBILE RESPONSIVE ===== */
+        @media (max-width: 600px) {
+            body {
+                overflow-y: auto;
+            }
+            .page {
+                padding: 16px 12px;
+                align-items: start;
+                padding-top: 24px;
+                padding-bottom: 32px;
+            }
+            .card {
+                padding: 20px 16px;
+                border-radius: 20px;
+                overflow-y: auto;
+            }
+            h1 {
+                font-size: 1.3rem;
+                line-height: 1.4;
+                margin-bottom: 10px;
+            }
+            p {
+                font-size: 0.88rem;
+                line-height: 1.8;
+                margin-bottom: 8px;
+            }
+            .mini {
+                margin-top: 12px;
+                padding: 12px;
+            }
+            .btn {
+                display: block;
+                width: 100%;
+                text-align: center;
+                padding: 14px 10px;
+                font-size: 0.92rem;
+                margin-top: 12px;
+                box-sizing: border-box;
+            }
+            .heart-badge {
+                font-size: 1.6rem;
+                margin-bottom: 6px;
+            }
+            .cake {
+                font-size: 3rem;
+            }
+        }
     </style>
 </head>
 
